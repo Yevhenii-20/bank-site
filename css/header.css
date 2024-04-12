@@ -20,6 +20,7 @@
     margin-bottom: 5px;
 }
 
+
 .hd-navigation__close {
     display: none;
 }
@@ -35,6 +36,11 @@
     display: block;
     margin-left: auto;
     position: relative;
+}
+
+.header-cart {
+    width: 25px;
+    height: 25px;
 }
 
 .header-cart img {
@@ -129,10 +135,16 @@
 
     .header-cart {
         margin-left: 0;
+        margin-right: 5px;
     }
 
     .header-logo img {
         width: 200px;
+    }
+
+    .header-logo {
+        position: relative;
+        top: 2px;
     }
 
     .header-navigations {
