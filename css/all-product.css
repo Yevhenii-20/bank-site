@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.all-product .hero-section {
+    background: url(../img/bg-home.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.ap-section {
+    padding-bottom: 30px;
+}
+
+.ap-title {
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; /* 79.5px */
+    margin: 0;
+}
+
+.ap-description {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.5%; /* 31.8px */
+}
+
+.ap-title__filters {
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.ap-item {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    padding: 30px 20px;
+}
+
+.ap-item:hover {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+}
+
+.ap-item__img img {
+    width: 112px;
+}
+
+.ap-item__name {
+    color: #000;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.ap-item__price {
+    font-size: 15px;
+    padding-top: 5px;
+    color: #000;
+}
+
+.ap-product-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.ap-content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .ap-item {
+        width: 25%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ap-item {
+        width: 33%;
+        padding: 15px 5px;
+        font-size: 14px;
+    }
+
+    .ap-title {
+        font-size: 70px;
+        line-height: 70px;
+        padding-bottom: 15px;
+    }
+
+    .ap-description {
+        font-size: 30px;
+    }
+
+    .all-product .hero-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ap-title {
+        font-size: 50px;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .ap-description {
+        font-size: 23px;
+    }
+
+    .ap-item {
+        width: 50%;
+        padding: 15px 7px;
+        font-size: 16px;
+    }
+
+    .ap-item__img img {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .ap-item {
+        width: 50%;
+        padding: 15px 7px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    <div class="wrapper product-page">
+        <header class="header-section">
+            <div class="container">
+                <div class="header-topbar">
+                    <button class="header-burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="#" class="header-logo">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+                    <nav class="header-navigations">
+                        <button class="header-navigations__close">X</button>
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms</a>
+                    </nav>
+                    <a href="#" class="header-cart">
+                        <img src="./img/cart-ico.svg"  alt="">
+                        <span class="header-cart__quantity">1</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="all-product">
+            <div class="breadcrumbs">
+                <div class="container">
+                    <a href="#">Home</a> /
+                    <a href="#">Shop</a>
+                </div>
+            </div>
+
+            <section class="checkout-section">
+                <div class="order-container">
+                    <div class="checkout-title">Checkout</div>
+                    <div class="order-content">
+                        <div class="order-title">Your Order</div>
+                        <div class="order-box">
+                            <div class="order-header">
+                                <div class="order-row1"></div>
+                                <div class="order-header__title order-row2">Product</div>
+                                <div class="order-header__title order-row3">Price</div>
+                                <div class="order-header__title order-row4">Quantity</div>
+                                <div class="order-header__title order-row5">Subtotal</div>
+                            </div>
+                            <div class="order-body">
+                                <div class="order-item">
+                                    <button class="order-row1 order-item__remove">
+                                        <img src="./img/remove-icon.svg" alt="">
+                                    </button>
+                                    <div class="order-row2 order-item__product">
+                                        <img src="./img/product1.png" alt="">
+                                        <div class="order-item__name">
+                                            <div>botttle name 1 bottle</div>
+                                            <span>Lorem</span>
+                                        </div>
+                                    </div>
+                                    <div class="order-row3">$69.99</div>
+                                    <div class="order-row4 order-item__quantity">
+                                        <button>
+                                            <img src="./img/less-icon.svg" alt="">
+                                        </button>
+                                        <span>1</span>
+                                        <button>
+                                            <img src="./img/add-icon.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="order-row5">$69.99</div>
+                                </div>
+
+                                <div class="order-item">
+                                    <button class="order-row1 order-item__remove">
+                                        <img src="./img/remove-icon.svg" alt="">
+                                    </button>
+                                    <div class="order-row2 order-item__product">
+                                        <img src="./img/product1.png" alt="">
+                                        <div class="order-item__name">
+                                            <div>botttle name 1 bottle</div>
+                                            <span>Lorem</span>
+                                        </div>
+                                    </div>
+                                    <div class="order-row3">$69.99</div>
+                                    <div class="order-row4 order-item__quantity">
+                                        <button>
+                                            <img src="./img/less-icon.svg" alt="">
+                                        </button>
+                                        <span>1</span>
+                                        <button>
+                                            <img src="./img/add-icon.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="order-row5">$69.99</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkout-info checkout-form">
+                        <div class="checkout-left">
+                            <div class="checkout-form__box personal-info">
+                                <div class="checkout-form__title">Personal information</div>
+                                <div class="checkout-form__flex">
+                                    <input type="text" placeholder="First name">
+                                    <input type="text" placeholder="Last Name">
+                                    <input type="text" placeholder="Phone">
+                                    <input type="text" placeholder="E-mail">
+                                </div>
+                            </div>
+
+                            <div class="checkout-form__box delivery-address">
+                                <div class="checkout-form__title">delivery address</div>
+                                <div class="checkout-form__flex">
+                                    <select name="" id="">
+                                        <option value="">Select Country</option>
+                                    </select>
+                                    <select name="" id="">
+                                        <option value="">Select State/Territory</option>
+                                    </select>
+                                </div>
+                                <input type="text" placeholder="Address*">
+                                <input type="text" placeholder="Zip Code*">
+                                <input type="text" placeholder="City*">
+                            </div>
+
+                            <div class="over-years">
+                                <input type="checkbox" name="" id="">
+                                <label>I am at least 18 years of age and agree to these
+                                    Terms & Conditions and Privacy Policy. You also
+                                    agree to received automated sms promotional
+                                    messages More Nutra. This agreement isn`t a 
+                                    condition of any purchase. 4 MSGS/Month. Msg &
+                                    Data rates may apply. Reply STOP to end or HELP
+                                    for help.</label>
+                            </div>
+                        </div>
+
+                        <div class="checkout-right">
+                            <div class="checkout-form__box payment-detail">
+                                <div class="checkout-form__title">payment details</div>
+                                <div class="checkout-form__card-flex">
+                                    <div class="checkout-form__card-input">
+                                        <label for="">Card number*</label>
+                                        <input type="text" placeholder="**** **** **** ****">
+                                    </div>
+                                    <div class="card-flex">
+                                        <img src="./img/ms-card.svg" alt="">
+                                        <img src="./img/vs-card.svg" alt="">
+                                        <img src="./img/ae-card.svg" alt="">
+                                        <img src="./img/ds-card.svg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="card-info__flex">
+                                    <div class="card-info__date">
+                                        <label for="">Expiry Date*</label>
+                                        <div class="card-info__date-flex">
+                                            <select name="" id="">
+                                                <option value="">Month</option>
+                                            </select>
+                                            <select name="" id="">
+                                                <option value="">Date</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="card-info__cvv">
+                                        <label for="">CVV code*</label>
+                                        <input type="text" placeholder="***">
+                                    </div>
+                                </div>
+
+                                <div class="name-card">
+                                    <label for="">Name on card*</label>
+                                    <input type="text" placeholder="Name on card">
+                                    <p>Charges will appear as domen name</p>
+                                </div>
+                            </div>
+
+                            <div class="checkout-form__box payment-detail">
+                                <div class="checkout-form__title">cart total</div>
+                                <div class="cart-total">
+                                    <div class="cart-total__header">
+                                        <div class="cart-total__row1">Total</div>
+                                        <div class="cart-total__row2">$209.97</div>
+                                    </div>
+
+                                    <div class="cart-total__body">
+                                        <div class="cart-total__row1">Quantity products</div>
+                                        <div class="cart-total__row2">3</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="checkout-form__btn">Place Order</button>
+                        </div>
+                    </div>
+
+                    <div class="checkout-terms">
+                        <div class="checkout-terms__title">Terms Policy</div>
+                        <div class="checkout-terms__box">
+                            <h3>carefully read and understand these terms before ordering any product through this website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sit accusantium deserunt? Quod itaque doloribus mollitia debitis rerum, dignissimos nulla vitae magnam iste! Aperiam sequi, animi natus saepe quos distinctio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, illum minima voluptatibus et nihil quidem eligendi, error laborum, optio odio aut quis nemo! Perferendis beatae sequi dicta quia, nulla commodi?</p>
+                            <h3>carefully read and understand these terms before ordering any product through this website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sit accusantium deserunt? Quod itaque doloribus mollitia debitis rerum, dignissimos nulla vitae magnam iste! Aperiam sequi, animi natus saepe quos distinctio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, illum minima voluptatibus et nihil quidem eligendi, error laborum, optio odio aut quis nemo! Perferendis beatae sequi dicta quia, nulla commodi?</p>
+                            <h3>carefully read and understand these terms before ordering any product through this website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sit accusantium deserunt? Quod itaque doloribus mollitia debitis rerum, dignissimos nulla vitae magnam iste! Aperiam sequi, animi natus saepe quos distinctio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, illum minima voluptatibus et nihil quidem eligendi, error laborum, optio odio aut quis nemo! Perferendis beatae sequi dicta quia, nulla commodi?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="shipping-section">
+                <div class="container shipping-flex">
+                    <div class="shipping-box">
+                        <img src="./img/info-icon1.png" class="shipping-box__img" alt="">
+                        <div class="shipping-box__info">
+                            <div class="shipping-box__title">FAST SHIPPING FOR EVERYONE ORDER</div>
+                            <p class="shipping-box__text">WE OFFER FAST SHIPPING FOR ALL ORDERS OF ANY SIZE, 24/7. YOU WILL NEVER WAIT LONG FOR YOUR ORDER!</p>
+                        </div>
+                    </div>
+
+                    <div class="shipping-box">
+                        <img src="./img/info-icon2.png" class="shipping-box__img" alt="">
+                        <div class="shipping-box__info">
+                            <div class="shipping-box__title">30 - DAY MONEY - BACK GUARANTEE</div>
+                            <p class="shipping-box__text">WE OFFER A 30-DAY MONEY-BACK GUARANTEE! SO BE SURE THAT YOU WILL GET YOUR RESULT, OR YOUR MONEY BACK!</p>
+                        </div>
+                    </div>
+
+                    <div class="shipping-box">
+                        <img src="./img/info-icon3.png" class="shipping-box__img" alt="">
+                        <div class="shipping-box__info">
+                            <div class="shipping-box__title">TESTED FOR QUALITY</div>
+                            <p class="shipping-box__text">ALL OF OUR PRODUCTS ARE TESTED AND VERIFIED THROUGH A 3RD PARTY TO ENSURE ACCURACY. WE TEST FOR POTENCY & PESTICIDES.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container footer-container">
+                <div class="footer-topbar">
+                    <div class="footer-topbar__info">
+                        <div class="footer-topbar__title">Raven Sunset Media LLC</div>
+                        <div class="footer-topbar__info-box">
+                            <img src="./img/address-icon.svg" width="16" alt="">
+                            <p>Address: 2471 N 1100 E NORTH OGDEN, UT 84414</p>
+                        </div>
+                        <div class="footer-topbar__info-box">
+                            <img src="./img/mail-icon.svg" width="16" alt="">
+                            <p>Email: ceo@biopeopls.com</p>
+                        </div>
+                        <div class="footer-topbar__info-box">
+                            <img src="./img/phone-icon.svg" width="16" alt="">
+                            <p>Hotline: +1 855 909 0147</p>
+                        </div>
+                        <div class="footer-topbar__info-box">
+                            <img src="./img/clock-icon.svg" width="16" alt="">
+                            <p>Hours of Operation: Monday through Friday 8am to 8pm and Saturday 9am to 5pm EST</p>
+                        </div>
+                    </div>
+                    <div class="footer-topbar__form">
+                        <p class="ft-form__text">Any statements on this site or any materials or supplements distributed or sold by XXXXXXX have not been evaluated by the Food and Drug Administration (FDA). This product is not intended to diagnose, treat, cure, or prevent any disease</p>
+                        <form action="#" class="ft-form">
+                            <input type="text" class="ft-form__input" placeholder="Enter your email">
+                            <button name="submit" class="ft-form__button">Subscribe!</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-lowbar">
+                    <div class="footer-navigation">
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                    <div class="footer-cards">
+                        <img src="./img/paypal.svg" alt="">
+                        <img src="./img/visa.svg" alt="">
+                        <img src="./img/master-card.svg" alt="">
+                        <img src="./img/discover.svg" alt="">
+                        <img src="./img/american-se.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
